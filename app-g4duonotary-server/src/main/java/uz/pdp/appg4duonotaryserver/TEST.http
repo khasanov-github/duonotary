@@ -1,0 +1,24 @@
+GET http://localhost/api/mainService
+
+###
+POST http://localhost/api/mainService/addMainSerice
+Content-Type: application/json
+#Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI3YTQ3YTQ2NC03YWVmLTQxZGUtOTZjOC01MzkzMDI4NjRlYzYiLCJpYXQiOjE2MDYyOTg4MzksImV4cCI6MTYwNjkwMzYzOX0.zlcdyKt8TIsEBRBNWOKXOF44BVo8mFcjWAKvxZAYTCQvYKzBB00Qh4juJhYVrbTU7pWdqfDgqTxsz6TqsMKMCg
+
+{
+  "name":"qwe",
+  "active":true,
+  "description":"e kalenga",
+  "fromTime":"12:00:00",
+  "tillTime":"20:00:00",
+  "online":false,
+  "orderNumber":3
+}
+###
+POST http://localhost/api/auth/login
+Content-Type: application/json
+
+{
+"username": "123",
+  "password": "123"
+}

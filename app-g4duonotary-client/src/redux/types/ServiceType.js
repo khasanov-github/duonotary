@@ -1,0 +1,4 @@
+export const REQ_SERVICE_LIST = 'REQ_SERVICE_LIST';
+export const REQ_ERROR = 'REQ_ERROR';
+export const START_SERVICE = 'START_SERVICE';
+export const REQ_SUCCESS_SERVICE = 'REQ_SUCCESS_SERVICE';

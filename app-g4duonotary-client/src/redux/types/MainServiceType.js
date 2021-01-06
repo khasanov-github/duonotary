@@ -1,0 +1,6 @@
+export const REQ_GET_MAIN_SERVICE_LIST = 'REQ_GET_MAIN_SERVICE_LIST';
+export const START = "START";
+export const REQ_ERROR = 'REQUEST_ERROR';
+export const REQ_SUCCESS = 'REQUEST_SUCCESS';
+export const CHANGE_ACTIVE = 'CHANGE_ACTIVE';
+export const CHANGE_ONLINE = 'CHANGE_ONLINE';
